@@ -1,5 +1,7 @@
-# Online-Softmax-Paper in CUDA
-#Unofficial [LeetArxiv](https://leetarxiv.substack.com/p/cuda-papers-day-1-online-softmax) implementation of the paper *Online Normalizer Calculation for Softmax* (Milakov & Gimelshein, 2018)
+# Online-Softmax-Paper in CUDA and C
+Unofficial C and CUDA [LeetArxiv](https://leetarxiv.substack.com/p/cuda-papers-day-1-online-softmax) implementation of the paper *Online Normalizer Calculation for Softmax* (Milakov & Gimelshein, 2018)
+
+![Abstract](https://github.com/MurageKibicho/Online-Softmax-Paper-/blob/cf69c99bac8dc65e19247f1089b8d556ecbc83da/Online%20Softmax/Marketing%20Propaganda/Abstract.png)
 
 
 Complete writeup and coding guide available [here](https://leetarxiv.substack.com/p/cuda-papers-day-1-online-softmax)
@@ -17,6 +19,8 @@ Instead of first finding the maximum, the authors propose rescaling the accumula
 
 ## Getting Started
 You can run the Jupyter Notebook locally or online in this [Google Colab notebook](https://colab.research.google.com/drive/1erLSbhvkOcqL7RtgSJCkfhnzkZ-4yKDI#scrollTo=1uMaV7M6X8hz).
+
+Follow the free writeup [here](https://leetarxiv.substack.com/p/cuda-papers-day-1-online-softmax)
 
 The C version runs with
 ```
